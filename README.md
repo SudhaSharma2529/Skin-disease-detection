@@ -23,4 +23,25 @@ The goal of this project is to demonstrate how Artificial Intelligence can assis
 - Matplotlib
 - Scikit-learn
 
-## Project Structure
+
+## How the System Works
+1. The dataset of skin disease images is collected.
+2. Data preprocessing and cleaning are performed.
+3. The machine learning model is trained using the dataset.
+4. The trained model predicts the type of skin disease from input images.
+5. Based on the predicted disease, the system provides suggestions for possible care and recommends consulting a doctor.
+
+## Doctor Suggestion Feature
+After predicting the disease, the system provides basic guidance, such as:
+- Suggesting users consult a dermatologist.
+- Providing general precautions for skin health.
+- Encouraging early medical diagnosis for serious symptoms.
+
+Note: This system is designed for educational and research purposes only and should not replace professional medical advice.
+
+## Future Improvements
+- Use deep learning models like CNN for better accuracy.
+- Add a web interface for users to upload images.
+- Integrate real-time disease detection.
+- Provide nearby dermatologist recommendations.
+
